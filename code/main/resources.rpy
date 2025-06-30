@@ -8,7 +8,7 @@ init python:
             file_path = path.splitext(path.basename(file_name))[0]
 
             if file_name.startswith(THLD_MOD_NAME + "/images/bg/"):
-                renpy.image("bg " + THLD_PREFIX + file_path, file_name)
+                renpy.image("bg " + THLD_PREFIX + file_path, file_name
 
             elif file_name.startswith(THLD_MOD_NAME + "/images/sprites/"):
                 renpy.image(
